@@ -29,6 +29,16 @@ public class ManageMethodPosition_Ashutosh {
         System.out.println("X-axis: "+x);
         System.out.println("Y-axis: "+y);
 
+        //To set position of page
+        win.setPosition(new Point(1000,4000));
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Point p1=win.getPosition();
+        System.out.println("New set position: "+p1);
+
         driver.quit();
     }
 }
