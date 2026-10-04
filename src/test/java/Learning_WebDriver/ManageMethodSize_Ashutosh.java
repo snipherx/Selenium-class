@@ -29,6 +29,18 @@ public class ManageMethodSize_Ashutosh {
         System.out.println("Dimension: "+dim);
         System.out.println("Width: "+width);
         System.out.println("Height: "+height);
+
+
+        //To set dimension of page
+        win.setSize(new Dimension(600,400));
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        Dimension dim1=win.getSize();
+        System.out.println("Set dimension of page: "+dim1);
+
         driver.quit();
     }
 }
