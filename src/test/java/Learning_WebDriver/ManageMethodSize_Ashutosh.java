@@ -21,6 +21,8 @@ public class ManageMethodSize_Ashutosh {
             throw new RuntimeException(e);
         }
         WebDriver.Window win=driver.manage().window();
+
+        //To get dimension of page
         Dimension dim= win.getSize();
         int width=dim.getWidth();
         int height=dim.getHeight();
