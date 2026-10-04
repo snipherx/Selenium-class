@@ -36,6 +36,14 @@ public class NevigateMethod_Ashutosh {
             throw new RuntimeException(e);
         }
 
+        //To navigate back
+        nev.back();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
 
         driver.quit();
     }
