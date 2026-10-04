@@ -44,6 +44,14 @@ public class NevigateMethod_Ashutosh {
             throw new RuntimeException(e);
         }
 
+        //To navigate forward
+        nev.forward();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
 
         driver.quit();
     }
