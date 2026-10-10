@@ -22,10 +22,10 @@ public class GetMethod_Ashutosh {
 
         String title=driver.getTitle();
         String url=driver.getCurrentUrl();
-        String sourceCode=driver.getPageSource();
+//        String sourceCode=driver.getPageSource();
 
         try {
-            Thread.sleep(2000); //2000 milli second= 2sec
+            Thread.sleep(5000); //2000 milli second= 2sec
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
