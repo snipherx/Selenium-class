@@ -23,8 +23,8 @@ public class ById {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        WebElement eml=driver.findElement(By.id("email"));
-        eml.sendKeys("ashutosh");
+        WebElement username=driver.findElement(By.id("email"));
+        username.sendKeys("ashutosh");
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -33,5 +33,6 @@ public class ById {
 
 
         driver.quit();
+
     }
 }
