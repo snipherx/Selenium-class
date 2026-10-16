@@ -1,4 +1,4 @@
-package Learning_WebDriver;
+package _2Learning_WebDriver;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.InvalidArgumentException;

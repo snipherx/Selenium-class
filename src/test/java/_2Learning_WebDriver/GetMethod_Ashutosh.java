@@ -1,4 +1,4 @@
-package Learning_WebDriver;
+package _2Learning_WebDriver;
 
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.WebDriver;

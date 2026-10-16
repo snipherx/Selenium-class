@@ -1,10 +1,7 @@
-package InitialDays;
+package _1InitialDays;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class FirstLineCode {
     public static void main(String[] args) {
